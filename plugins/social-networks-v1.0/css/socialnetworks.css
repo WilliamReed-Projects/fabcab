@@ -1,0 +1,68 @@
+.Maintenance .ReseauSocial, section#ReseauxSociaux .ReseauSocial {
+	display:inline-block;
+	text-align:center;
+}
+.Maintenance .ReseauSocial a, section#ReseauxSociaux .ReseauSocial a {
+	/* color:#FFF;
+	border:1px solid #FFF; */
+	border-top:1px;
+	border-right:1px;
+	border-bottom:1px;
+	border-left:1px;
+	border-style:solid;
+	font-size:25px;
+	border-radius:20px;
+	padding:4px;
+	line-height:30px;
+	height:40px;
+	width:40px;
+	display:block;
+	margin:10px 5px;
+}
+/* ----- Facebook ----- 	#3B5998 ----- */
+.ReseauSocial.FB a {	color:#FFF; border-color:#FFF; background-color:#3B5998; }
+	.ReseauSocial.FB a:hover {	background-color:transparent; color:#3B5998; }
+	
+/* ----- Twitter ----- 		#33CCFF ----- */
+.ReseauSocial.TW a {	color:#33CCFF; border-color:#33CCFF; }
+	.ReseauSocial.TW a:hover {	background-color:#33CCFF; color:#FFF; }
+	
+/* ----- YouTube ----- 		#FF3333 ----- */
+.ReseauSocial.YT a {	color:#FF3333; border-color:#FF3333; }
+	.ReseauSocial.YT a:hover {	background-color:#FF3333; color:#FFF; }
+	
+/* ----- Linkedin ----- 	#1A86BC ----- */
+.ReseauSocial.LI a {	color:#1A86BC; border-color:#1A86BC; }
+	.ReseauSocial.LI a:hover {	background-color:#1A86BC; color:#FFF; }
+	
+/* ----- Viadeo ----- 		#EB6310 ----- */
+.ReseauSocial.VI a {	color:#EB6310; border-color:#EB6310; }
+	.ReseauSocial.VI a:hover {	background-color:#EB6310; color:#FFF; }
+	
+/* ----- Google + ----- 	#DD4B39 ----- */
+.ReseauSocial.GP a {	color:#DD4B39; border-color:#DD4B39; }
+	.ReseauSocial.GP a:hover {	background-color:#DD4B39; color:#FFF; }
+	
+/* ----- Pinterest ----- 	#CB2027 ----- */
+.ReseauSocial.PI a {	color:#CB2027; border-color:#CB2027; }
+	.ReseauSocial.PI a:hover {	background-color:#CB2027; color:#FFF; }
+	
+/* ----- Instagram ----- 	#517fa4 ----- */
+.ReseauSocial.IN a {	color:#FFF; border-color:#FFF; background-color:#517fa4; }
+	.ReseauSocial.IN a:hover {	background-color:transparent; color:#517fa4; }
+	
+/* ----- Tumblr ----- 		#2C4762 ----- */
+.ReseauSocial.TU a {	color:#2C4762; border-color:#2C4762; }
+	.ReseauSocial.TU a:hover {	background-color:#2C4762; color:#FFF; }
+	
+/* ----- TripAdvisor ----- 	#589442 ----- */
+.ReseauSocial.TA a {	color:#FFF; border-color:#FFF; background-color:#589442; }
+	.ReseauSocial.TA a:hover {	background-color:transparent; color:#589442; }
+
+
+
+
+
+.ContactTop p.RSMini {
+	margin:0 2px;
+}

@@ -1,0 +1,38 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:#888;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color:#888;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color:#888;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color:#888;
+  }
+  input[type=text], textarea {
+      width:100%;
+      padding:10px;
+      margin-bottom:10px;
+      border:1px solid #CCC;
+      background-color:#e6e6e6;
+      color:#000;
+  }
+  
+  input[type=text]:focus, textarea:focus {
+      box-shadow:5px 0px 0px #77B5FE inset;
+      background-color:#FFF;
+  }
+  input[type=text].ErreurChamp, textarea.ErreurChamp {
+      border:1px solid #C00;
+  }
+  .MessWarning {
+      color:#C00;
+      font-weight:bold;
+  }
+  .bg-primary .MessWarning {
+      color:#FFF;
+  }
+  label {
+      font-weight:normal;
+  }

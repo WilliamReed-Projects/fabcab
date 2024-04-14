@@ -1,0 +1,59 @@
+.BlocPartner {
+}
+.Partner {
+	width:25%;
+	padding:20px;
+	float:left;
+	height:260px;
+}
+.Partner.v2 {
+	width:50%;
+}
+.Partner a {
+	text-decoration:none;
+	display:block;
+	padding:10px;
+	color:#fdca38;
+}
+.Partner a:hover {
+	background-color:#fdca38;
+	display:block;
+}
+.Partner img {
+	width:100%;
+}
+.Partner a h3 {
+	color:#fdca38;
+	margin-top:0;
+}
+.Partner a:hover h3 {
+	color:#000;
+}
+.Partner a p {
+	font-size:12px;
+	margin:10px 0 0;
+}
+@media only screen and (max-width: 1170px) {
+	.Partner {
+		width:25%;
+		height:260px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.Partner {
+		width:33.33%;
+		height:260px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.Partner {
+		width:50%;
+		height:290px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.Partner {
+		width:100%;
+		height:auto;
+	}
+}

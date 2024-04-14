@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+.bg-presentation {
+	/* background-image:url('../../../img/bg-presentation.jpg');
+	background-size:cover;
+	background-position:center;
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	height:600px; */
+	text-align:center;
+}
+.bg-presentation img {
+	margin:30px auto;
+}
+@media(max-width:768px) {
+	.bg-presentation img {
+		max-width:300px;
+		margin:0 auto;
+	}
+}
+.bg-transport {
+	background-image:url('../../../img/bg-transport.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.bg-transport p {
+	padding:10px 15px;
+	display:inline;
+	text-shadow:1px 1px 0 rgba(0,0,0,1);
+	font-size:20px;
+}
+.bg-transport a {
+	text-shadow:none;
+}
+.bg-deplacement {
+	background-image:url('../../../img/bg-deplacement.png');
+	background-size:cover;
+	background-position:center;
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	height:420px;
+}
+
+body.navettes-aeroport header {
+	background-image:url('../../../img/header-navette-aeroport.jpg');
+}
+
+@media(max-width:930px) {
+	body.navettes-aeroport header {
+		background-image:url('../../../img/header-navette-aeroport-2.jpg');
+	}
+}
+
+body.vehicules .img-responsive {
+    border:none;
+}
+
+
+
+
+.bg-exemple {
+	background-image:url('../../../img/bg-exemple3.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+}
+.bg-exemple a {
+	text-shadow:none;
+}
+.bg-exemple2 {
+	background-image:url('../../../img/bg-exemple.jpg');
+	background-size:cover;
+	background-position:center;
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	height:300px;
+}
+.bg-exemple3 {
+	background-image:url('../../../img/bg-exemple4.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+}
+.bg-exemple3 p {
+	padding:10px 15px;
+	background:rgba(255,255,255,0.7);
+	display:inline;
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	font-size:20px;
+}
+
+
+
+i.fa-depose {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.flag-screen {
+	display:none !important;
+}
+
+.flag-mobile {
+	display: inline-block;
+	float: left;
+	margin: 13px 0 0 84px;
+}
+
+@media(min-width:1051px) {
+	.flag-mobile {
+		display:none;
+	}	
+	.flag-screen {
+		display:block !important;
+	}
+}
+
+
+
+
+
+.h2, h2 {
+	font-size: 40px;
+}
+.h1, .h2, h1, h2 {
+	margin-bottom: 30px;
+}
+
+
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* Bouton */
+.btn {
+	white-space: initial;
+}
+
+
+
+/* Contact */
+section#contact {
+	background-color:#111111;
+}
+section#contact .content-contact a {
+	font-size:20px;
+}
+
+
+
+/* navette aéroport */
+section#prise-en-charge h2 {
+	font-size:30px;
+}
+section#prise-en-charge h2.section-heading i.fa {
+	display: block;
+	margin-bottom: 20px;
+}

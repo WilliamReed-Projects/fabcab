@@ -1,0 +1,150 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+ body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    webkit-tap-highlight-color: #222;
+	line-height: 1.7;
+    font-size: 16px;
+}
+::-moz-selection {
+    text-shadow: none;
+    color: var(--color-selection);
+    background: var(--bg-selection);
+}
+::selection {
+    text-shadow: none;
+    color: var(--color-selection);
+    background: var(--bg-selection);
+}
+img::selection {
+    color: var(--color-selection-img);
+    background: var(--bg-selection-img);
+}
+img::-moz-selection {
+    color: var(--color-selection-img);
+    background: var(--bg-selection-img);
+}
+
+hr {
+    max-width: 50px;
+    border-color: var(--color-primary);
+    border-width: 3px;
+}
+
+hr.primary { 	border-color: var(--color-primary); }
+hr.secondary { 	border-color: var(--color-secondary); }
+hr.tertiary { 	border-color: var(--color-tertiary); }
+hr.dark { 		border-color: var(--color-dark); }
+hr.light { 		border-color: #fff; }
+
+a {
+    color: var(--color-primary);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+a.secondary {	color: var(--color-secondary); }
+a.tertiary { 	color: var(--color-tertiary); }
+
+a:hover,
+a:focus {
+    color: var(--color-secondary);
+	outline:0;
+	text-decoration:underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05em;
+    line-height: 1.7;
+}
+li {
+    font-size:1.1em;
+}
+
+.bg-primary { 	background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-tertiary { 	background-color: var(--color-tertiary); }
+.bg-dark {		background-color: var(--color-dark); }
+.bg-white {		background-color: var(--color-light); }
+
+.color-primary {	color: var(--color-primary); }
+.color-secondary {	color: var(--color-secondary); }
+.color-tertiary {	color: var(--color-tertiary); }
+.color-dark { 		color: var(--color-dark); }
+.color-white { 		color: var(--color-light); }
+
+.text-align-left { 		text-align:left; }
+.text-align-center { 	text-align:center; }
+.text-align-right { 	text-align:right; }
+
+.text-faded {
+    color: rgba(255,255,255,.7);
+}
+
+
+section {
+    padding: 100px 0;
+}
+section.SectionLittleTop {
+    padding: 0 0 100px;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+.no-padding { padding: 0; }
+.no-margin { margin: 0; }
+
+.margin10 {		margin-top:10px; }
+.margin20 {		margin-top:20px; }
+.margin30 {		margin-top:30px; }
+.margin40 {		margin-top:40px; }
+.margin50 {		margin-top:50px; }
+.margin60 {		margin-top:60px; }
+.margin70 {		margin-top:70px; }
+.margin80 {		margin-top:80px; }
+.margin90 {		margin-top:90px; }
+.margin100 {	margin-top:100px; }
+.margin150 {	margin-top:150px; }
+.padding10 {	padding-top:10px; }
+.padding20 {	padding-top:20px; }
+.padding30 {	padding-top:30px; }
+.padding40 {	padding-top:40px; }
+.padding50 {	padding-top:50px; }
+.padding60 {	padding-top:60px; }
+.padding70 {	padding-top:70px; }
+.padding80 {	padding-top:80px; }
+.padding90 {	padding-top:90px; }
+.padding100 {	padding-top:100px; }
+.padding150 {	padding-top:150px; }
+
+
+
+
+.section-heading {
+    margin-top: 0;
+}
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cb {
+	clear:both;
+}

@@ -1,0 +1,48 @@
+:root {
+	/* Principales couleurs */
+	--color-primary: rgba(223,9,64,1); /* Couleur principal */ /* df0940 */
+	--color-secondary: rgba(158,24,59,1); /* Couleur secondaire */ /* 9e183b */
+	--color-tertiary: rgba(215,79,114,1); /* Couleur tertiaire */ /* d74f72 */
+	--color-dark: #222; /* Couleur tertiaire */
+	--color-light: #FFF; /* Couleur tertiaire */
+	
+	
+	/* Selection */
+    --color-selection: var(--color-light);
+    --bg-selection: var(--color-primary);
+    --color-selection-img: var(--color-primary);
+    --bg-selection-img: none;
+	
+	
+	/* Beandeau top */
+	--bandeau-bg-color: var(--color-primary);  /* couleur du fond */
+	--bandeau-color-text: var(--color-light); /* couleur du texte */
+	--bandeau-color-text-link : var(--color-light); /* couleur des liens */
+	--bandeau-color-text-link-hover : var(--color-light); /* couleur des liens */
+	--bandeau-border-link : 5px solid rgba(255,255,255,0.5); /* Mise en forme des bordures des liens */
+	
+	
+	/* Menu */
+	--bg-menu-top:transparent; /* Couleur du fond du menu en haut */
+	--bg-menu:var(--color-light); /* Couleur du fond du menu par dÃ©faut */
+	
+	
+	/* Scroll To Top */
+	--bg-ScrollToTop:var(--color-primary);
+	--bghover-ScrollToTop:var(--color-dark);
+	--color-ScrollToTop:rgba(255,255,255,.7);
+	--colorhover-ScrollToTop:rgba(255,255,255,1);
+	
+	
+	/* Header */
+	--color-header:var(--color-primary); /* Couleur du texte du header */
+	--color-baseline-p:rgba(0,0,0,.9); /* Couleur du p sous le titre */
+	
+	
+	/* Portfolio */
+	--bg-img-portfolio:rgba(223,9,64,0.9); /* hover des images du portfolio */
+	
+	/* Footer */
+	--footer-bg-color:var(--color-dark); /* couleur du fond */
+	--footer-text-color:var(--color-light); /* couleur du texte */
+}
